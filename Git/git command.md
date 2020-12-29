@@ -5,7 +5,7 @@
 ### 0. init
 
 - `.git/` 폴더를 생성해준다.
-- git init
+- git inits
 - ![a](gitcommand.assets/a.png)
 - `.git`폴더가 생성된 경우 로른쪽에 `master`라는 표시가 나온다
 
