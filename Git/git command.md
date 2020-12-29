@@ -6,7 +6,7 @@
 
 - `.git/` 폴더를 생성해준다.
 - git init
-- ![스크린샷2020-12-29오후3.13.47](./gitcommand.assets/스크린샷2020-12-29오후3.13.47.png)
+- ![a](gitcommand.assets/a.png)
 - `.git`폴더가 생성된 경우 로른쪽에 `master`라는 표시가 나온다
 
 - 최초에 한번만 하면된다.
@@ -38,7 +38,7 @@
 
 ### 5. push
 
-- `git push orining master`
+- `git push origin master`
 - 깃아 올려줘 origin으로 master를
 - 원격저장소에 로컬 저장소의 데이터를 전송
 
