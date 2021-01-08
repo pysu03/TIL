@@ -25,7 +25,7 @@ def makerUrl(url):
 def badFunc(name):
     pass
 ```
-### 매개변수에 튜플이 들어갈 때
+###  매개변수에 튜플이 들어갈 때 - 가변인자
 
 ```python
 def tupleFunc(*args):                       # *튜플형식
@@ -41,13 +41,13 @@ def tupleFunc(*args):
         result += args[idx]
     return result
 ```
-### 매개변수에 딕션너리가 들어갈 때
+### 매개변수에 딕션너리가 들어갈 때 - 가변인자
 ``` python
 def dictFunc(**args):
     for key, value in args.items():
         print('{} = {}'.format(key,value))
 ```
-### 범위내에 있는 값의 홀, 짝의 합을 구해서 리턴
+### 범위내에 있는 값의 홀, 짝의 합을 구해서 리턴 (튜플 형식의 리턴)
 ```python
 def cntSum(start, end):
     odd = even = 0
@@ -59,7 +59,7 @@ def cntSum(start, end):
 
     return odd, even
 ```
-### 윤년 찾기
+### 윤년 찾기 (리스트 형식의 리턴)
 ```python
 def leapYearFunc(strYear, endYear):
     yearList = []
@@ -68,7 +68,7 @@ def leapYearFunc(strYear, endYear):
            yearList.append(year)
     return yearList
 ```
-### 
+### 딕션너리 형식의 리턴
 
 ```python
 def rtnDictFunc(x):
