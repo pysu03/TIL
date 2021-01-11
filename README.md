@@ -13,4 +13,4 @@
   day2기록
 - 1/7 day3, day4 기록
 - 1/8 day5 기록 - function, opp(class)
-
+- 1/11 day6 기록 - oof(class) 상속/다형성/은닉화
